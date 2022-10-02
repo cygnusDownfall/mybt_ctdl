@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\bt\\CTDL&GT\\020101125\\020101125.csproj": {}
+    "E:\\bt\\CTDL&GT\\BT\\BT.csproj": {}
   },
   "projects": {
-    "E:\\bt\\CTDL&GT\\020101125\\020101125.csproj": {
+    "E:\\bt\\CTDL&GT\\BT\\BT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\bt\\CTDL&GT\\020101125\\020101125.csproj",
-        "projectName": "020101125",
-        "projectPath": "E:\\bt\\CTDL&GT\\020101125\\020101125.csproj",
+        "projectUniqueName": "E:\\bt\\CTDL&GT\\BT\\BT.csproj",
+        "projectName": "BT",
+        "projectPath": "E:\\bt\\CTDL&GT\\BT\\BT.csproj",
         "packagesPath": "C:\\Users\\tranl\\.nuget\\packages\\",
-        "outputPath": "E:\\bt\\CTDL&GT\\020101125\\obj\\",
+        "outputPath": "E:\\bt\\CTDL&GT\\BT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
