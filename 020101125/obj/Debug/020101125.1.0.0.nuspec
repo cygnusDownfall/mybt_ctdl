@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>020101125</id>
+    <version>1.0.0</version>
+    <authors>020101125</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\bt\CTDL&amp;GT\020101125\bin\Debug\netcoreapp3.1\020101125.runtimeconfig.json" target="lib\netcoreapp3.1\020101125.runtimeconfig.json" />
+    <file src="E:\bt\CTDL&amp;GT\020101125\bin\Debug\netcoreapp3.1\020101125.dll" target="lib\netcoreapp3.1\020101125.dll" />
+  </files>
+</package>
