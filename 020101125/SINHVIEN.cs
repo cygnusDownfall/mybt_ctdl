@@ -6,17 +6,18 @@ namespace _020101125
 {
     public class SINHVIEN
     {
-        int sbd, toan, van, anh;
+        float  toan, van, anh;
+        int sbd;
         public int SBD { get { return sbd; }  }
-        public int Toan { get { return toan; } }   
-        public int Van { get { return van; } }  
-        public int Anh { get { return anh; } }  
-        public int diemtong { get => toan + van + anh; }
+        public float Toan { get { return toan; } }   
+        public float Van { get { return van; } }  
+        public float Anh { get { return anh; } }  
+        public float diemtong { get => toan + van + anh; }
         public SINHVIEN()
         {
 
         }
-        public SINHVIEN(int Sbd,int dtoan,int dvan,int danh)
+        public SINHVIEN(int Sbd,float dtoan,float dvan,float danh)
         {
             sbd = Sbd;
             toan = dtoan;

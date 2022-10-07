@@ -6,13 +6,18 @@ namespace _020101125
     {
         static void Main(string[] args)
         {
-            Console.Write("nhap file path input:");
-            string inputfile = Console.ReadLine();
+            
+           
+        }
+        void test()
+        {
+            //Console.Write("nhap file path input:");
+            //string inputfile = Console.ReadLine();
 
             Console.Write("nhap file path output:");
             string outputfile = Console.ReadLine();
 
-            DSSV ds = new DSSV(inputfile,outputfile);
+            DSSV ds = new DSSV(@"F:\etc\diemtest.csv", outputfile);
         }
     }
 }
