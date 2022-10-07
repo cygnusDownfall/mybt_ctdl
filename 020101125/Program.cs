@@ -6,7 +6,13 @@ namespace _020101125
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("nhap file path input:");
+            string inputfile = Console.ReadLine();
+
+            Console.Write("nhap file path output:");
+            string outputfile = Console.ReadLine();
+
+            DSSV ds = new DSSV(inputfile,outputfile);
         }
     }
 }

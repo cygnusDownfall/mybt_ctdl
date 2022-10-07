@@ -11,6 +11,7 @@ namespace _020101125
         public int Toan { get { return toan; } }   
         public int Van { get { return van; } }  
         public int Anh { get { return anh; } }  
+        public int diemtong { get => toan + van + anh; }
         public SINHVIEN()
         {
 
