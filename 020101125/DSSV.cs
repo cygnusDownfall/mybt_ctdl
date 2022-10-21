@@ -28,7 +28,7 @@ namespace _020101125
         }
         void Readfromfile(string filepath, bool haveheader = true)
         {
-            using (StreamReader rd = new StreamReader(filepath))
+            using(StreamReader rd = new StreamReader(filepath))
             {
                 string[] infos = new string[4];
                 int sbd;

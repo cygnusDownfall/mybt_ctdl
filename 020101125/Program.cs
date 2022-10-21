@@ -9,7 +9,7 @@ namespace _020101125
             
            
         }
-        void test()
+        void test1()
         {
             //Console.Write("nhap file path input:");
             //string inputfile = Console.ReadLine();
