@@ -57,7 +57,7 @@ namespace _020101125
         }
         public static void Quick<T>(List<T> a, Comparison<T> comparison)
         {
-            
+            q<T>(a,0,a.Count,comparison);
         }
         static void q<T>(List<T> a,int  left,int right ,Comparison<T> comparison)
         {
@@ -69,8 +69,11 @@ namespace _020101125
                 {
                     while (comparison(a[j], a[mid])>=0) j--;
                     Swap<T>(a, i, j);
+                    continue;
                 }
             }
+            q<T>(a,left,mid,comparison);
+            q<T>(a,mid+1,right,comparison);
         }
     }
 }

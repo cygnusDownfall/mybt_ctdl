@@ -41,5 +41,19 @@ namespace _020101125
             }
             return -1;
         }
+        public static int Binary<T>(List<T> a, T value, Comparison<T> comparison)
+        {
+            int mid=0;
+            for(int left=0,right=a.Count;left<right;){
+                mid=left+(right-left)/2;
+                if(comparison(a[mid,value])==0 ){
+                    return mid;
+                }else{
+                    if(comparison(a[mid],value)<0){
+                        left=mid+1;
+                    }else {right=mid-1}
+                }
+            }
+        }
     }
 }
