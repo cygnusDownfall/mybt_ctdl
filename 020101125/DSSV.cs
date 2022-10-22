@@ -56,7 +56,7 @@ namespace _020101125
                 }
             }
         }
-        void Writefile(string filepath)
+        public void Writefile(string filepath)
         {
             using (StreamWriter wt = new StreamWriter(filepath))
             {
@@ -69,9 +69,9 @@ namespace _020101125
             }
         }
 
-        void SapXep()
+        public void SapXep()
         {
-
+            Sapxep.Quick<SINHVIEN>(ds, SINHVIEN.sosanhtheoToan);
         }
     }
 }

@@ -46,14 +46,15 @@ namespace _020101125
             int mid=0;
             for(int left=0,right=a.Count;left<right;){
                 mid=left+(right-left)/2;
-                if(comparison(a[mid,value])==0 ){
+                if(comparison(a[mid],value)==0 ){
                     return mid;
                 }else{
                     if(comparison(a[mid],value)<0){
                         left=mid+1;
-                    }else {right=mid-1}
+                    }else { right = mid - 1; }
                 }
             }
+            return -1;
         }
     }
 }

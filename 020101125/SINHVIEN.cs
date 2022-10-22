@@ -25,9 +25,10 @@ namespace _020101125
             van = dvan;
             anh = danh;
         }
-        public int sosanhtheoSBD(SINHVIEN a, SINHVIEN b) => (a.sbd - b.sbd);
-        public int sosanhtheoToan(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.toan-b.toan);
-        public int sosanhtheoVan(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.van - b.van);
-        public int sosanhtheoAnh(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.anh - b.anh);
+        public static int sosanhtheoSBD(SINHVIEN a, SINHVIEN b) => (a.sbd - b.sbd);
+        public static int sosanhtheoToan(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.toan-b.toan);
+        public static int sosanhtheoVan(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.van - b.van);
+        public static int sosanhtheoAnh(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.anh - b.anh);
+        public static int sosanhtheoTong(SINHVIEN a, SINHVIEN b) => Convert.ToInt32(a.diemtong - b.diemtong);
     }
 }

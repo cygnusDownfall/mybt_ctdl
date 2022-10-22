@@ -38,6 +38,20 @@ namespace _020101125
                 }
             }
         }
+        public static void bubblewithswap<T>(List<T> a, Comparison<T> comparison)
+        {
+            bool swapped=false;
+            for (int i = a.Count; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if (comparison(a[j], a[j + 1]) > 0)
+                    {
+                        Swap<T>(a, j, j + 1);
+                    }
+                }
+            }
+        }
         public static void shaker<T>(List<T> a, Comparison<T> comparison)
         {
             for (int i = a.Count,n=i; i > n/2; i--)
@@ -55,25 +69,41 @@ namespace _020101125
                 }
             }
         }
+        public static void SelectionSort<T>(List<T> a, Comparison<T> comparison)
+        {
+
+        }
+        public static void InsertionSort<T>(List<T> a, Comparison<T> comparison)
+        {
+
+        }
         public static void Quick<T>(List<T> a, Comparison<T> comparison)
         {
-            q<T>(a,0,a.Count,comparison);
+            q<T>(a,0,a.Count-1,comparison);
         }
         static void q<T>(List<T> a,int  left,int right ,Comparison<T> comparison)
         {
             if (left >= right) { return; }
             int mid = left + (right - left) / 2;
-            for(int i=left,j=right;i<=mid; i++)
+            T x=a[mid];
+            for(int i=left,j=right;i<=j; i++)
             {
-                if(comparison(a[i],a[mid]) > 0)
+                while (comparison( a[i] , x)<0)
                 {
-                    while (comparison(a[j], a[mid])>=0) j--;
-                    Swap<T>(a, i, j);
-                    continue;
+                    i++;
                 }
+                while (comparison( a[j] , x)>0) j--;
+                if (i <= j)
+                {
+                    Swap(a, i, j);
+                    i++; j--;
+                }
+                if(left < j) q<T>(a,left,j,comparison);
+                if(right > i) q<T>(a,i,right,comparison);
             }
-            q<T>(a,left,mid,comparison);
-            q<T>(a,mid+1,right,comparison);
+            
         }
+
+
     }
 }
