@@ -20,6 +20,8 @@ namespace BT_020101125
             stopwatch.Start();
             danhsachsonguyen a = new danhsachsonguyen(filein);
             a.Sort();
+            a.writefile(fileout);
+            
             stopwatch.Stop();
             a.writefile(fileout);
             Console.WriteLine("thoi gian chay: "+stopwatch.ElapsedMilliseconds);

@@ -6,23 +6,23 @@ namespace _020101125
 {
     public class DSSV
     {
-        List<SINHVIEN> ds;
+        List<THISINH> ds;
         public int count { get => ds.Count; }
-        public List<SINHVIEN> DanhsachSV { get => ds; set { } }
+        public List<THISINH> DanhsachSV { get => ds; set { } }
         public DSSV()
         {
-            ds = new List<SINHVIEN>();
+            ds = new List<THISINH>();
 
         }
         public DSSV(string input)
         {
-            ds = new List<SINHVIEN>();
+            ds = new List<THISINH>();
             Readfromfile(input);
 
         }
         public DSSV(string input, string output)
         {
-            ds = new List<SINHVIEN>();
+            ds = new List<THISINH>();
             Readfromfile(input);
             Writefile(output);
         }
@@ -49,7 +49,7 @@ namespace _020101125
                         van = float.Parse(infos[2]);
                         anh = float.Parse(infos[3]);
 
-                        SINHVIEN sv = new SINHVIEN(sbd, toan, van, anh);
+                        THISINH sv = new THISINH(sbd, toan, van, anh);
                         ds.Add(sv);
                     }
 
@@ -60,7 +60,7 @@ namespace _020101125
         {
             using (StreamWriter wt = new StreamWriter(filepath))
             {
-                SINHVIEN sv;
+                THISINH sv;
                 for (int i = 0; i < count; i++)
                 {
                     sv = ds[i];
@@ -71,7 +71,9 @@ namespace _020101125
 
         public void SapXep()
         {
-            Sapxep.Quick<SINHVIEN>(ds, SINHVIEN.sosanhtheoToan);
+            //Sapxep.Quick<THISINH>(ds, THISINH.sosanhtheoToan);
+            //Sapxep.heapSort<THISINH>(ds,count,THISINH.sosanhtheoSBD);
+            Sapxep.MergeSort<THISINH>(ds, THISINH.sosanhtheoSBD);
         }
     }
 }

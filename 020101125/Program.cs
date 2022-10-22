@@ -22,8 +22,8 @@ namespace _020101125
         }
         static void test2()
         {
-            string filein = "diemtest.txt";
-            //string filein = "diemthiTHPT2020TVA.csv";
+           // string filein = "diemtest.txt";
+            string filein = "diemthiTHPT2020TVA.csv";
             string fileout = "diemtestout.txt";
 
             Stopwatch stopwatch = new Stopwatch();

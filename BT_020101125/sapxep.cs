@@ -120,12 +120,15 @@ namespace BT_020101125
             int k = left;
             while (i < mid)
             {
-                a[k++] = a[i++];
+                b[k++] = a[i++];
             }
             while (j > mid)
             {
                 b[k++] = b[j--];
             }
+            i = left;
+            j = right;
+            k = left;
             while (i <= j)
             {
                 a[k++] = (b[i] < b[j]) ? b[i++] : b[j--];
