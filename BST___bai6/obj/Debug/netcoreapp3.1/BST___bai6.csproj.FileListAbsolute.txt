@@ -1,0 +1,14 @@
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.exe
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.deps.json
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.runtimeconfig.json
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.runtimeconfig.dev.json
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.dll
+E:\bt\CTDL&GT\BST___bai6\bin\Debug\netcoreapp3.1\BST___bai6.pdb
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.csproj.AssemblyReference.cache
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.GeneratedMSBuildEditorConfig.editorconfig
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.AssemblyInfoInputs.cache
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.AssemblyInfo.cs
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.csproj.CoreCompileInputs.cache
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.dll
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.pdb
+E:\bt\CTDL&GT\BST___bai6\obj\Debug\netcoreapp3.1\BST___bai6.genruntimeconfig.cache

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TuyenSinh;
 
 namespace BT_020101125
 {
     public class sapxep
     {
-        //hom truoc em lam thuc hanh tren may truong k co luu ve 
-
         static void Swap(int[] a, int i, int j)
         {
             int tam = a[i];
@@ -41,9 +40,6 @@ namespace BT_020101125
             }
         }
 
-
-        // TH ngay 22/10/2022
-
         public static void Quick(int[] a)
         {
             q(a, 0, a.Length - 1);
@@ -70,6 +66,7 @@ namespace BT_020101125
             if (left < j) q(a, left, j);
             if (i < right) q(a, i, right);
         }
+
         public static void shift(int[] a, int left, int right)
         {
             //hieu chinh dong 
@@ -118,7 +115,7 @@ namespace BT_020101125
             int i = left;
             int j = right;
             int k = left;
-            while (i < mid)
+            while (i <= mid)
             {
                 b[k++] = a[i++];
             }
@@ -147,7 +144,6 @@ namespace BT_020101125
             int[] b = new int[a.Length];
             Msort(a, b, 0, a.Length);
         }
-
         public static void DirectMerge(int[] a, int[] b, int n, int size)
         {
             int left1 = 0, right1, left2, right2;
@@ -268,5 +264,105 @@ namespace BT_020101125
             }
 
         }
+
+        public static void QuichkSortwithStack(int[] a,int n )
+        {
+            Stack<int> stack = new Stack<int>();
+            int left = 0, right = n - 1, mid;
+            int i,j;
+            stack.Push(right);
+            stack.Push(left);
+            while (stack.Count > 0)
+            {
+                left=stack.Pop();
+                right=stack.Pop();
+
+                i= left;
+                j= right;
+
+
+                mid=left+(right-left)/2;
+                int x = a[mid];
+
+                while (i <= j)
+                {
+                    while (a[i] < x)
+                    {
+                        i++;
+                    }
+                    while (a[j] > x) j--;
+                    if (i <= j)
+                    {
+                        Swap(a, i, j);
+                        i++; j--;
+                    }
+                }
+                if (left < j)
+                {
+                    stack.Push(j);
+                    stack.Push(left);
+                }
+                if (i < right)
+                {
+                    stack.Push(right);
+                    stack.Push(i);
+                }
+            }
+        }
+        public static void MergeSortwithStack(int[]a,int n)
+        {
+            Stack<int> stack = new Stack<int>();
+            int[] b=new int[n];
+            int left=0, right=n-1, mid;
+            stack.Push(right);
+            stack.Push(left);
+
+            //khu de quy ham Arsar????
+
+            do
+            {
+                left=stack.Pop();
+                right=stack.Pop();
+                mid = left + (right - left) / 2;
+
+                stack.Push(right);
+                stack.Push(left);
+
+                if (mid>left)
+                {
+                    stack.Push(left);
+                    stack.Push(mid);
+                }
+                if (mid < right)
+                {
+                    stack.Push(right);
+                    stack.Push(mid + 1);
+                }
+            }while(left< right);
+
+
+            while(stack.Count > 0)
+            {
+                left = stack.Pop();
+                right = stack.Pop();
+                mid = left + (right - left) / 2;
+                Merge(a, b, left, mid, right);
+            }
+        }
+        public static void HeapSortwithPrioQueue(int[]a,int n)
+        {
+            PriorityQueue<int> pq = new PriorityQueue<int>(n,(x,y)=>(x-y));
+            int i;
+            for (i = 0; i<n ; i++)
+            {
+                pq.Enqueue(a[i]);
+            }
+            for (i = 0; i < n; i++)
+            {
+                a[i]= pq.Dequeue(); 
+            }
+
+        }
+       
     }
 }

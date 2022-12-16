@@ -1,0 +1,16 @@
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.exe
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.deps.json
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.runtimeconfig.json
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.runtimeconfig.dev.json
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.dll
+E:\bt\CTDL&GT\BinarySearchTree\bin\Debug\net5.0\BinarySearchTree.pdb
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.csproj.AssemblyReference.cache
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.GeneratedMSBuildEditorConfig.editorconfig
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.AssemblyInfoInputs.cache
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.AssemblyInfo.cs
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.csproj.CoreCompileInputs.cache
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.dll
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\refint\BinarySearchTree.dll
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.pdb
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\BinarySearchTree.genruntimeconfig.cache
+E:\bt\CTDL&GT\BinarySearchTree\obj\Debug\net5.0\ref\BinarySearchTree.dll

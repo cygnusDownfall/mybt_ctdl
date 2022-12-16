@@ -22,12 +22,12 @@ namespace BT_020101125
             using (StreamReader rd = new StreamReader(filepath))
             {
                
-                int n = Convert.ToInt32(rd.ReadLine());
+                n = Convert.ToInt32(rd.ReadLine());
                 a = new int[n];
                 string s;
                 for (int i = 0; (s = rd.ReadLine()) != null; i++)
                 {
-                    a[i] = Convert.ToInt32(rd.ReadLine());
+                    a[i] = Convert.ToInt32(s);
                 }
                 
             }
@@ -48,7 +48,10 @@ namespace BT_020101125
         public void Sort()
         {
             //sapxep.Quick(a);
-            sapxep.heapSort(a, a.Length);
+            // sapxep.heapSort(a, a.Length);
+            //sapxep.QuichkSortwithStack(a, n);
+            // sapxep.MergeSortwithStack(a, n);  co loi can sua lai
+            sapxep.HeapSortwithPrioQueue(a,n);
 
             //sapxep.RadixlSort(a,a.Length);
         }

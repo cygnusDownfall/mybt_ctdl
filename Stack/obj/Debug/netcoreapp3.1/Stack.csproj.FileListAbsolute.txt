@@ -1,0 +1,14 @@
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.exe
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.deps.json
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.json
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.dev.json
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.dll
+E:\bt\CTDL&GT\Stack\bin\Debug\netcoreapp3.1\Stack.pdb
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.csproj.AssemblyReference.cache
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.GeneratedMSBuildEditorConfig.editorconfig
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfoInputs.cache
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfo.cs
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.csproj.CoreCompileInputs.cache
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.dll
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.pdb
+E:\bt\CTDL&GT\Stack\obj\Debug\netcoreapp3.1\Stack.genruntimeconfig.cache

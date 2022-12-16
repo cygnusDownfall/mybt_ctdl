@@ -1,0 +1,14 @@
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.exe
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.deps.json
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.runtimeconfig.json
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.runtimeconfig.dev.json
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.dll
+E:\bt\danhsachlienket\bin\Debug\netcoreapp3.1\danhsachlienket.pdb
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.csproj.AssemblyReference.cache
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.GeneratedMSBuildEditorConfig.editorconfig
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.AssemblyInfoInputs.cache
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.AssemblyInfo.cs
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.csproj.CoreCompileInputs.cache
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.dll
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.pdb
+E:\bt\danhsachlienket\obj\Debug\netcoreapp3.1\danhsachlienket.genruntimeconfig.cache

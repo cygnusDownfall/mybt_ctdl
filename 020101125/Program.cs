@@ -7,7 +7,7 @@ namespace _020101125
     {
         static void Main(string[] args)
         {
-            test2();
+            test3();
            
         }
         void test1()
@@ -35,6 +35,26 @@ namespace _020101125
             stopwatch.Stop();
            
             Console.WriteLine("thoi gian chay: " + stopwatch.ElapsedMilliseconds);
+        }
+        static void test3()
+        {
+            // string filein = "diemtest.txt";
+            string filein = "diemtest.txt";
+            string fileout = "diemtestout.txt";
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            danhsachlienket dSSV = new danhsachlienket(filein, fileout);
+          
+            stopwatch.Stop();
+
+            Console.WriteLine("thoi gian chay: " + stopwatch.ElapsedMilliseconds);
+        }
+        static void test4()
+        {
+            tree<THISINH> tree = new tree<THISINH>();
+
         }
     }
 }
