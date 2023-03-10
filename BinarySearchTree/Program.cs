@@ -24,6 +24,9 @@ namespace BinarySearchTree
             Console.WriteLine("Duyet LRN:");
             tree.duyetLRN();
 
+            Console.WriteLine("Duyet NLR no:");
+            tree.NLRnoRes();
+
             int X = 30;
             //Node x = tree.Search(X);
             Node x = tree.searchNonRev(X);

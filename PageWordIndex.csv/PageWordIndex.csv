@@ -1,0 +1,1310 @@
+﻿Page,Word
+1,community
+1,ideas and examples
+2,about
+2,stern
+2,weather display project
+2,wi-fi weather display (becky stern)
+3,cnc plotter project (michalis vasilakis)
+3,kim-1 emulator (oscar vermeulen)
+3,mini cnc plotter (michalis vasilakis)
+3,stern
+3,vasilakis
+3,vermeulen
+3,weather display project
+3,wi-fi weather display (becky stern)
+4,cnc plotter project (michalis vasilakis)
+4,community
+4,hardware suppliers
+4,ideas and examples
+4,mini cnc plotter (michalis vasilakis)
+4,suppliers
+4,vasilakis
+5,arduino store usa
+5,hardware suppliers
+5,installation and configuration
+5,ordering from
+5,parts list download
+5,suppliers
+6,arduino ide installation
+7,arduino ide installation
+7,installation and configuration
+7,linux
+8,safety
+9,about
+10,about
+10,hardware
+10,ideas and examples
+11,arduino
+11,power connector
+11,usb (universal serial bus) connector
+12,analog inputs
+12,arduino board
+12,arduino uno
+12,arduino uno pins
+12,l led
+12,on arduino board
+12,power sockets
+12,reset power sockets
+12,rx led
+12,sockets
+12,tx led
+12,usb (universal serial bus) connector
+13,hardware
+13,reset button
+13,using
+14,hardware
+14,ide window
+14,screen layout
+14,using
+15,edit menu
+15,file menu
+15,help menu
+15,sketch menu item
+15,tools menu
+16,ide window
+16,in ide toolbar
+16,message window area
+16,new icon
+16,on arduino board
+16,open icon
+16,save icon
+16,screen layout
+16,serial monitor icon
+16,upload icon
+16,using
+16,writing
+17,comments in
+17,comments in sketches
+17,connecting to
+17,file menu
+17,port type
+17,save as menu item
+18,in sketch example
+18,loop() function
+18,pinmode() function
+18,semicolon (;)
+18,setup() function
+19,delay() function
+19,digitalwrite() function
+19,writing
+20,error messages
+20,screen layout
+20,upload icon
+20,uploading and running
+20,using
+20,verifying
+21,in sketch example
+21,modifying
+24,algorithms
+24,feature creep
+24,planning
+24,properties
+25,a (amperes)
+25,about
+25,ac (alternating current)
+25,alternating current (ac)
+25,amperes or amps (a)
+25,and current
+25,and resistors
+25,dc (direct current)
+25,defined
+25,direct current (dc)
+25,fundamental
+25,measurement
+25,milliamps (ma)
+25,properties
+25,v (volts)
+26,k? (kiloohms)
+26,kiloohms (k?)
+26,measurement and values
+26,ohms (?)
+26,resistance values
+27,chip resistors
+27,ohms (?)
+27,resistance values
+27,surface-mount resistors
+28,about
+28,measurement and values
+28,multimeters
+28,resistor ratings
+29,anodes
+29,arduino uno limitation
+29,cathodes
+29,connecting
+29,polarization
+30,arduino uno limitation
+30,connecting
+30,fundamental
+30,i (current)
+30,in ohm’s law (i)
+30,in ohm’s law (r)
+30,in ohm’s law (v)
+30,ohm’s law
+30,r (resistance)
+30,v (volts)
+31,breadboard
+31,breadboards. see also protoshields
+32,breadboard
+32,breadboards. see also protoshields
+33,blinking led wave
+33,creating a blinking led wave (project)
+33,with sketch example
+35,blinking led wave
+35,creating a blinking led wave (project)
+35,int variables
+35,using
+35,with sketch example
+36,blinking led wave
+36,for loops
+36,int variables
+36,repeating with for loops (project)
+36,using
+37,blinking led wave
+37,brightness control effects
+37,conditions in loops
+37,duty cycles
+37,for loops
+37,pwm (pulse-width modulation)
+37,repeating with for loops (project)
+38,analogwrite() function
+38,arduino board
+38,blinking led wave
+38,brightness control effects
+38,demonstrating pwm (project)
+38,duty cycles
+38,pulse-width modulation (~) pins
+39,about
+39,arduino board
+39,arduino board limits
+39,bc548 transistor
+39,blinking led wave
+39,demonstrating pwm (project)
+39,fundamental
+39,pwm (pulse-width modulation)
+40,about
+40,b (base) pins
+40,bc548 transistor
+40,c (collector) pins
+40,collector (c) pins
+40,diodes
+40,e (emitter) pins
+40,emitter (e) pins
+40,pinout
+41,about
+41,electrical isolation
+41,fundamental
+41,higher-voltage
+41,in circuit example
+42,higher-voltage
+42,in circuit example
+43,safety
+43,wall-power
+46,in schematic diagrams
+46,schematic diagrams
+46,using
+47,in schematic diagrams
+47,ohms (?)
+48,b (base) pins
+48,c (collector) pins
+48,coil schematic symbol
+48,collector (c) pins
+48,com (common) schematic symbol
+48,e (emitter) pins
+48,emitter (e) pins
+48,in schematic diagrams
+48,nc (normally closed) schematic symbol
+48,no (normally open) schematic symbol
+48,npn-type transistors
+48,pnp-type transistors
+48,q (transistor) schematic symbol
+49,blinking led wave
+49,in schematic diagrams
+49,junction dots
+49,using
+50,blinking led wave
+50,drawing application
+50,fritzing application
+50,in schematic diagrams
+50,schematic diagrams
+50,using
+51,and capacitors
+51,capacitor values
+51,ceramic
+51,ceramic capacitors
+51,farads
+51,justradios.com
+51,microfarads (µf)
+51,picofarads (pf)
+51,units of measure conversion charts
+51,using
+52,electrolytic
+52,electrolytic capacitors
+53,about
+53,using
+54,bounce phenomenon
+54,digital storage oscilloscopes
+54,oscilloscopes
+54,switch bounce
+54,using
+55,circuit building demonstration
+55,debounce circuits
+55,demonstrating a digital input (project)
+55,demonstration project
+55,pull-down
+55,pull-down resistors
+55,switch bounce
+56,building circuits from
+56,building with schematics
+59,building circuits from
+59,building with schematics
+60,digitalread() function
+60,fixed values
+60,if-then statements
+60,pinmode() function
+61,circuit building demonstration
+61,comparison operators
+61,demonstrating a digital input (project)
+61,demonstration project
+61,equal (==) operator
+61,if-else statements
+61,if-then statements
+61,not equal (!=) operator
+62,and (&&) operator
+62,boolean variables
+62,boolean variable
+62,comparison operators
+62,not (!) operator
+63,and (&&) operator
+63,comparison operators
+63,or (||) operator
+64,controlling traffic
+64,controlling traffic (project)
+64,in controlling traffic project
+68,boolean variables
+68,controlling traffic
+68,controlling traffic (project)
+68,in controlling traffic project
+69,analog signals
+69,digital signals
+69,digitalread() function
+69,digitalwrite() function
+69,signals
+70,analog inputs
+70,analog signals
+70,analogread() function
+70,battery testing project
+70,creating a single-cell battery tester (project)
+72,battery testing project
+72,creating a single-cell battery tester (project)
+72,float variables
+73,arithmetic operations
+73,comparison operators
+73,float variables
+73,greater than (>) operator
+73,greater than or equal to (>=) operator
+73,less than (<) operator
+73,less than or equal to (<=) operator
+73,reference
+73,reference voltages
+74,analogread() function
+74,aref (analog reference) pin
+74,aref pin
+74,in voltage dividers
+74,voltage dividers
+75,analogreference() function
+75,aref (analog reference) pin
+75,aref pin
+75,audio amplifier circuits
+75,in voltage dividers
+75,linear variable resistors
+75,logarithmic variable resistors
+75,potentiometers
+75,reference
+75,reference voltages
+75,using
+75,variable
+75,variable resistors
+75,voltage dividers
+76,audio amplifier circuits
+76,linear variable resistors
+76,logarithmic variable resistors
+76,trimpots (aka trimmers)
+77,about
+77,buzzers
+77,potentiometers
+77,trimpots (aka trimmers)
+77,variable
+77,variable resistors
+78,about
+78,buzzers
+78,demonstration project
+78,trying out a piezo buzzer (project)
+79,analog devices
+79,creating a quick-read thermometer (project)
+79,demonstration project
+79,quick-read thermometer
+79,tmp36 temperature sensor. see also temperature-sensing and display projects
+79,trying out a piezo buzzer (project)
+81,tmp36 temperature sensor. see also temperature-sensing and display projects
+82,creating a quick-read thermometer (project)
+82,quick-read thermometer
+82,tmp36 temperature sensor. see also temperature-sensing and display projects
+83,overview
+84,blinkled() custom function
+84,creating a function to repeat an action (project)
+84,example sketch
+84,with arduino built-in led
+85,accepting values
+85,blinkled() custom function
+85,creating a function to set the number of blinks (project)
+85,with arduino built-in led
+86,accepting values
+86,blinkled() custom function
+86,creating a function to set the number of blinks (project)
+86,creating a quick-read thermometer that blinks the temperature (project)
+86,quick-read thermometer
+86,returning values
+86,void function type
+86,with arduino built-in led
+88,blinkled() custom function
+89,blinkled() custom function
+89,creating a quick-read thermometer that blinks the temperature (project)
+89,quick-read thermometer
+89,using
+90,autoscroll box
+90,baud
+90,screen layout
+90,serial.begin() function
+90,serial.print() function
+90,serial.println() function
+90,using
+91,displaying contents of
+91,displaying the temperature in the serial monitor (project)
+91,serial monitor display
+92,debugging
+92,debugging with
+92,displaying the temperature in the serial monitor (project)
+92,serial monitor display
+93,do-while statements
+93,serial buffer
+93,while statements
+94,multiplying a number by two (project)
+94,no line ending menu item
+94,serial buffer
+94,serial.available() function
+95,defined
+95,multiplying a number by two (project)
+95,serial buffer
+95,serial.flush() function
+95,using
+95,using long variables (project)
+97,using
+97,using long variables (project)
+100,generating
+100,random() function
+100,seeds
+101,creating an electronic die (project)
+101,electronic die-throwing
+101,generating
+101,in projects
+104,bits
+104,bytes
+104,creating an electronic die (project)
+104,electronic die-throwing
+104,in projects
+104,least significant bit (lsb)
+104,lsb (least significant bit)
+104,most significant bit (msb)
+104,msb (most significant bit)
+104,working with
+105,byte variables
+106,74hc595 shift register ic
+106,byte variables
+106,using
+106,working with
+107,binary number display
+107,creating an led binary number display (project)
+107,display project
+107,led binary number project
+107,schematic
+107,shift registers
+107,using
+108,clock pin
+108,data out pin
+108,latch pin
+108,output enable pin
+108,pins
+108,shift registers
+109,74hc595 shift register ic
+109,binary number display
+109,creating an led binary number display (project)
+109,display project
+109,in led binary display sketch
+109,latch pin
+109,led binary number project
+109,lsbfirst parameter
+109,msbfirst parameter
+109,shiftout() function
+110,making a binary quiz game (project)
+110,quiz game project
+112,arrays
+112,making a binary quiz game (project)
+112,quiz game project
+113,array elements
+114,arrays
+114,using
+115,common-cathode modules
+115,seven-segment display modules
+115,with seven-segment led display modules
+116,lsbfirst parameter
+116,seven-segment display modules
+116,shiftout() function
+116,using
+116,with seven-segment led display modules
+117,creating a single-digit display (project)
+117,in projects
+119,controlling two seven-segment led display modules (project)
+119,creating a single-digit display (project)
+119,in projects
+119,with seven-segment led display modules
+120,modulo functions
+122,controlling two seven-segment led display modules (project)
+122,creating a digital thermometer (project)
+122,digital display
+122,in projects
+122,with seven-segment led display modules
+123,creating a digital thermometer (project)
+123,digital display
+123,in projects
+125,about
+125,using
+126,hardware
+126,microsd card shields
+126,stacking shields
+126,using
+127,microsd card shields
+127,stacking
+127,stacking shields
+127,using
+128,and protoshields
+128,stacking
+128,stacking shields
+128,using
+129,creating a custom shield (project)
+129,custom building project
+129,using
+130,graph paper layouts
+130,graph paper printing program
+131,graph paper layouts
+131,soldering
+132,soldering
+132,using
+133,creating a custom shield (project)
+133,custom building project
+133,libraries
+133,testing
+133,using
+134,downloading and installing
+134,libraries
+135,fastled library installation
+135,libraries
+135,library manager
+136,downloading and installing
+136,library manager
+137,about
+137,formatting
+138,about
+138,connecting
+138,sd card modules. see also memory card modules
+139,connecting
+139,memory card modules
+139,testing
+140,sd card library sketches
+140,testing
+140,writing data to (projects)
+140,writing data to the memory card (project)
+140,writing to memory cards
+141,dec (decimal) parameter
+141,writing to memory cards
+142,creating a temperature-logging device (project)
+142,float variables
+142,logging
+142,sd card library sketches
+142,writing data to (projects)
+142,writing data to the memory card (project)
+142,writing to memory cards
+143,logging and log files
+143,logs
+144,creating a temperature-logging device (project)
+144,elapsed time recording
+144,logging
+144,logging and log files
+144,logs
+144,sd card library sketches
+144,spreadsheets
+144,writing data to (projects)
+145,micros() function
+145,millis() function
+145,timing state change
+145,unsigned long variable
+146,creating a stopwatch (project)
+146,elapsed time recording
+146,stopwatch projects
+146,timing state change
+149,about
+149,creating a stopwatch (project)
+149,interrupt handlers
+149,interrupt monitoring
+149,stopwatch projects
+150,about
+150,attachinterrupt() function
+150,change interrupt mode
+150,delay() function
+150,detachinterrupt() function
+150,falling interrupt mode
+150,interrupt monitoring
+150,interrupts() function
+150,low interrupt mode
+150,modes and functions
+150,nointerrupts() function
+150,rising interrupt mode
+150,serial.available() function
+151,demonstration project
+151,stopwatch projects
+151,using interrupts (project)
+152,demonstration project
+152,stopwatch projects
+152,using interrupts (project)
+153,package types
+154,and led numeric display modules
+154,package types
+155,and led numeric display modules
+155,download
+155,led numeric displays
+156,sketches
+157,lc.cleardisplay function
+157,lc.setchar() function
+157,lc.setdigit() function
+157,lc.setintensity() function
+157,lc.shutdown() function
+157,ledcontrol() function
+157,sketches
+157,with ledcontrol library
+158,digital stopwatch (project)
+158,in digital stopwatch project
+158,sketches
+158,stopwatch projects
+159,sketches
+160,and led numeric display modules
+160,connecting
+160,digital stopwatch (project)
+160,in digital stopwatch project
+160,led matrix modules
+160,stopwatch projects
+160,using led matrix modules (project)
+160,with led matrix modules
+161,connecting
+161,download
+161,led matrix modules
+162,sketches
+162,using
+164,lmd.setenabled() function
+164,lmd.setintensity() function
+164,sketches
+165,ascii chart
+166,using
+166,using led matrix modules (project)
+166,with led matrix modules
+167,about
+167,hardware
+168,lcd modules
+169,demonstration sketch
+169,hardware
+169,lcd modules
+169,liquidcrystal library sketches
+170,lcd.begin() function
+170,lcd.clear() function
+170,lcd.setcursor() function
+170,liquidcrystal library sketches
+170,text display
+170,text displays
+171,demonstration sketch
+171,lcd.print() function
+171,number display
+171,on lcd screens
+171,text display
+171,text displays
+172,defining custom characters (project)
+172,defining customer characters
+172,for pixel presentation
+172,lcd.createchar() function
+172,lcd.write() function
+172,pixels
+173,connecting
+173,defining custom characters (project)
+173,defining customer characters
+173,st7735 tft lcd module
+174,background color
+174,connecting
+174,graphic lcd modules
+174,st7735 tft lcd module
+174,text displays
+174,tft graphics lcd library sketches
+174,tftscreen.background() function
+174,tftscreen.begin() function
+175,background color
+175,colour tables
+175,char statement
+175,rgb color tables
+175,text functions
+175,tftscreen.settextsize() function
+175,tftscreen.stroke() function
+175,tftscreen.text() function
+176,seeing the text functions in action (project)
+176,string() function
+176,tft graphics lcd library sketches
+176,tftscreen.text() function
+176,tochararray() function
+177,graphic functions
+177,seeing the text functions in action (project)
+177,text displays
+177,text functions
+178,tft graphics lcd library sketches
+178,tftscreen.circle() function
+178,tftscreen.fill() function
+178,tftscreen.line() function
+178,tftscreen.nofill() function
+178,tftscreen.point() function
+178,tftscreen.rect() function
+179,in projects
+179,seeing the graphic functions in action (project)
+179,tft graphics lcd library sketches
+180,graphic functions
+180,tft graphics lcd library sketches
+181,creating a temperature history monitor (project)
+181,historical display
+181,in projects
+181,lcd graphics
+181,projects
+181,seeing the graphic functions in action (project)
+181,st7735 tft lcd module
+184,creating a temperature history monitor (project)
+184,historical display
+184,lcd graphics
+184,projects
+185,about creating
+186,about creating
+187,#define statement
+187,#ifndef statement
+187,.cpp (source) files
+187,.h (header) files
+187,arduino library requisites
+187,header (.h) files
+187,keywords.txt definition files
+187,requisite files
+187,source (.cpp) files
+188,.cpp (source) files
+188,.h (header) files
+188,classes in sketches
+188,constructors
+188,header (.h) files
+188,instance creation
+188,public
+188,public: section
+188,source (.cpp) files
+189,#include statement
+189,.cpp (source) files
+189,constructors
+189,keywords.txt definition files
+189,source (.cpp) files
+190,#include statement
+190,arduino library requisites
+190,installing custom
+190,instance creation
+190,keywords.txt definition files
+190,requisite files
+190,windows
+190,zip file creation
+191,windows
+191,zip file creation
+192,mac os x
+192,zip file creation
+193,libraries
+193,mac os x
+193,zip file creation
+194,installing custom
+194,libraries
+195,custom demonstrations
+196,private
+196,private: section
+197,custom demonstrations
+197,in custom library demonstration
+201,custom demonstrations
+201,in custom library demonstration
+203,using
+204,connecting
+204,download
+204,using
+205,connecting
+205,in sketches
+205,keypads
+206,in sketches
+206,switch case statement
+207,creating a keypad-controlled lock (project)
+207,default: section
+207,in keypad-controlled lock project
+207,in sketches
+207,switch case statement
+209,creating a keypad-controlled lock (project)
+209,in keypad-controlled lock project
+209,in sketches
+211,touchscreens
+211,using
+212,breakout boards
+212,connecting
+212,touchscreens
+213,addressing and mapping
+213,addressing areas on the touchscreen (project)
+215,addressing and mapping
+215,addressing areas on the touchscreen (project)
+215,creating a two-zone on/off touch switch (project)
+215,in touch switch projects
+218,addressing and mapping
+218,creating a two-zone on/off touch switch (project)
+218,creating a three-zone touch switch (project)
+218,in touch switch projects
+218,map() function
+221,creating a three-zone touch switch (project)
+221,in touch switch projects
+221,map() function
+224,7805 linear voltage regulator
+224,creating your own breadboard arduino (project)
+224,linear voltage regulators
+225,7805 linear voltage regulator
+225,crystal oscillators (“crystals”)
+225,heat sinks
+225,linear voltage regulators
+226,atmega328p-pu
+226,crystal oscillators (“crystals”)
+226,in schematic
+227,atmega328p-pu
+227,batteries
+227,battery snaps
+227,bootloaders
+227,in schematic
+227,ordering from
+228,batteries
+228,battery snaps
+229,atmega328p-pu
+229,atmega328p-pu microcontroller ic
+229,ordering from
+229,pin labels
+229,pins
+230,atmega328p-pu
+230,ic (integrated circuit) extractors
+230,pin labels
+230,pins
+230,removing and inserting
+230,uploading and running
+231,ic (integrated circuit) extractors
+231,removing and inserting
+231,uploading sketches to
+231,uploading sketches with
+232,ftdi cables
+232,uploading sketches to
+232,uploading sketches with
+233,arduino boards and alternatives. see also arduino uno; creating your own breadboard arduino (project)
+233,board menu item
+233,board type selection
+233,creating your own breadboard arduino (project)
+233,choosing
+233,ftdi cables
+233,ide type selection
+233,tools menu
+233,uploading and running
+234,arduino uno alternatives
+234,comparison chart
+234,choosing
+234,flash memory
+234,in comparison chart
+234,sram
+235,about
+235,eleven board
+235,in freetronics eleven board
+235,sockets
+236,nano (arduino) board
+236,pro trinket
+237,lilypad
+237,mega 2560 (arduino) board
+237,nano (arduino) board
+238,due (arduino) board
+238,ethermega board
+238,in projects
+238,mega 2560 (arduino) board
+239,arduino boards and alternatives. see also arduino uno; creating your own breadboard arduino (project)
+239,arduino uno alternatives
+239,due (arduino) board
+239,hardware suppliers
+239,open source hardware
+241,horns
+241,using
+242,horns
+242,rotational range
+242,torque
+242,using
+243,connecting
+243,demonstration sketch
+243,servo library sketches
+244,analog display
+244,analog thermometer building project
+244,building an analog thermometer (project)
+244,demonstration sketch
+244,in analog thermometer project
+244,servo library sketches
+246,analog display
+246,analog thermometer building project
+246,backing sheets
+246,building an analog thermometer (project)
+246,in analog thermometer project
+247,about
+247,darlington
+247,darlington transistors. see also tip120 darlington transistor
+247,stall current
+247,using
+247,with electric motors
+248,about
+248,batteries
+248,battery holders
+248,controlling project
+248,controlling the motor (project)
+248,in projects
+248,using
+249,battery holders
+249,in projects
+250,controlling project
+250,controlling the motor (project)
+250,diodes
+250,pwm (pulse-width modulation)
+250,with electric motors
+251,connecting
+251,stepper motors
+252,connecting
+252,dc socket terminal blocks
+252,download
+252,terminal blocks
+253,demonstration sketch
+253,in sketches
+254,building and controlling
+254,building and controlling a robot vehicle (project)
+254,demonstration sketch
+254,in sketches
+255,chassis models
+256,battery holders
+256,battery snaps
+257,l293d motor drive shield
+257,motor shields
+258,l293d motor drive shield
+258,motor shields
+259,in sketches
+259,installing
+261,building and controlling
+261,building and controlling a robot vehicle (project)
+261,in sketches
+262,collision sensing techniques
+262,detecting collisions
+262,microswitches
+262,terminal shields
+262,with microswitch
+263,microswitches
+264,in robot vehicle projects
+264,in sketches
+266,collision sensing techniques
+266,detecting collisions
+266,in sketches
+266,sharp infrared analog sensor
+266,uses
+266,wiring
+266,with microswitch
+267,testing
+267,wiring
+269,detecting collisions
+269,in robot vehicle collision detection project
+269,testing
+269,with infrared distance sensor
+270,in sketches
+271,detecting collisions
+271,hc-sr04 ultrasonic distance sensor
+271,in robot vehicle collision detection project
+271,in sketches
+271,using
+271,with infrared distance sensor
+272,connecting
+272,hc-sr04 ultrasonic distance sensor
+272,testing
+272,using
+273,detecting collisions
+273,in collision detection project
+273,in sketches
+273,testing
+273,with ultrasonic distance sensor
+275,detecting collisions
+275,in collision detection project
+275,in sketches
+275,with ultrasonic distance sensor
+278,connecting
+278,gps (global positioning system)
+278,gps receiver modules
+278,using
+279,software
+279,software serial ports
+279,using
+280,testing
+280,using
+281,building project
+281,creating an accurate gps-based clock (project)
+281,download
+281,gps sentences
+281,lcd & keypad shield
+281,sentence conversion
+281,testing
+282,in projects
+282,in sketches
+282,liquidcrystal library sketches
+282,receiving
+282,screw shields
+283,google maps
+283,gps (global positioning system)
+283,in projects
+283,in sketches
+283,liquidcrystal library sketches
+283,receiving
+284,building project
+284,creating a gps-based clock
+284,creating an accurate gps-based clock (project)
+284,google maps
+284,gps (global positioning system)
+284,gps-based
+284,in projects
+284,in sketches
+284,liquidcrystal library sketches
+284,time data
+285,in projects
+285,in sketches
+285,liquidcrystal library sketches
+285,time data
+286,creating a gps-based clock
+286,creating an accurate gps-based clock (project)
+286,gps-based
+286,in gps coordinates project
+286,in sketches
+286,logging and log files
+286,logging positions
+286,logs
+286,recording the position of a moving object over time (project)
+286,screw shields
+286,sd card library sketches
+286,writing data to (projects)
+288,in gps coordinates project
+288,in sketches
+288,logging positions
+288,sd card library sketches
+289,logging and log files
+289,logs
+289,mapping with
+290,google maps
+290,gps visualizer
+290,mapping with
+290,recording the position of a moving object over time (project)
+290,writing data to (projects)
+291,rf link modules
+291,rf link sets
+291,using
+293,creating a wireless remote control (project)
+293,download
+293,in wireless remote control project
+293,in wireless remote control projects
+293,rf link sets
+293,using
+293,with radio frequency transmitters
+295,433 mhz receiver shield
+296,in sketches
+297,in wireless remote control project
+297,strlen() function
+298,creating a wireless remote control (project)
+298,in sketches
+298,in wireless remote control projects
+298,transceivers
+298,using
+298,with radio frequency transmitters
+299,download
+299,frequency bands
+299,lora shields
+299,over lora wireless
+299,using
+300,using
+302,in sketches
+302,spi data bus library sketches
+304,in projects
+304,in sketches
+304,over lora wireless
+304,spi data bus library sketches
+305,in projects
+306,in sketches
+309,in projects
+309,in sketches
+309,over lora wireless
+309,sending remote data
+309,sending remote sensor data using lora wireless (project)
+310,in sketches
+313,in sketches
+314,in projects
+314,sending remote data
+314,sending remote sensor data using lora wireless (project)
+315,operations
+316,download
+316,ir modules
+316,ir receiver modules
+316,ir receivers
+316,operations
+316,sony infrared signals
+316,sony tv remotes
+316,vishay tsop4138 ir receiver
+317,in sketches
+317,sony tv remotes
+317,test sketch
+318,building project
+318,creating an ir remote control arduino (project)
+318,sony infrared signals
+318,sony tv remotes
+318,test sketch
+320,in sketches
+321,building and controlling
+321,building project
+321,creating an ir remote control arduino (project)
+321,creating an ir remote control robot vehicle (project)
+321,hexadecimal numbers
+321,in sketches
+321,sony tv remotes
+321,with infrared
+324,building and controlling
+324,creating an ir remote control robot vehicle (project)
+324,in sketches
+324,with infrared
+325,operations
+326,devices
+326,rfid tags
+326,using
+327,card readers
+327,connecting
+327,in sketches
+327,testing
+327,using
+328,creating a simple rfid control system (project)
+328,devices
+328,in projects
+328,in sketches
+328,rfid tags
+328,testing
+329,in sketches
+330,in projects
+330,in sketches
+331,creating a simple rfid control system (project)
+331,eeprom library sketches
+331,eeprom memory
+331,internal
+332,eeprom memory
+333,creating an rfid control with “last action” memory (project)
+333,eeprom library sketches
+333,in projects
+333,internal
+336,creating an rfid control with “last action” memory (project)
+336,eeprom library sketches
+336,in projects
+337,data buses. see also i2c (inter-integrated circuit) bus; spi (serial peripheral interface) bus
+337,i2c (inter-integrated circuit) bus
+337,spi (serial peripheral interface) bus
+338,i2c (inter-integrated circuit) bus
+338,i2c addressing
+338,i2c bus connectors
+338,i2c bus pins
+338,scl (clock line)
+338,sda (data line)
+338,wire library sketches
+338,wire.begin() function
+339,24lc512 eeprom
+339,eeprom
+339,external
+339,i2c (inter-integrated circuit) bus
+339,using an external eeprom (project)
+339,wire library sketches
+339,wire.begintransmission() function
+339,wire.endtransmission() function
+339,wire.read() function
+339,wire.requestfrom() function
+339,wire.write() function
+340,24lc512 eeprom
+341,wire library sketches
+342,external
+342,using an external eeprom (project)
+342,wire library sketches
+343,mcp23017 port expanders
+343,port expanders
+343,using a port expander ic (project)
+345,mcp23017 port expanders
+345,port expanders
+345,using a port expander ic (project)
+345,wire library sketches
+346,cs (chip select) pin
+346,miso (main in
+346,mosi (main out
+346,sck (serial clock) pin
+346,spi (serial peripheral interface) bus
+346,spi data bus library sketches
+346,spi device connections
+346,spi pins
+346,ss (secondary select) pin
+347,spi (serial peripheral interface) bus
+347,spi data bus library sketches
+347,spi.begin()
+347,spi.setbitorder()
+347,spi.transfer()
+348,connecting
+348,digital rheostats
+348,mcp4162 digital rheostat
+348,using
+348,using a digital rheostat (project)
+349,connecting
+349,spi data bus library sketches
+349,testing
+350,mcp4162 digital rheostat
+350,spi data bus library sketches
+350,testing
+350,using a digital rheostat (project)
+351,maxim ds3231 rtc module
+351,rtc ics
+351,using
+352,adding and displaying time and date with an rtc (project)
+352,connecting
+352,i2c (inter-integrated circuit) bus
+352,maxim ds3231 rtc module
+352,real-time clock projects
+352,using
+353,wire library sketches
+355,bcd (binary coded decimal) conversion
+355,wire library sketches
+355,working with
+356,adding and displaying time and date with an rtc (project)
+356,creating a simple digital clock (project)
+356,proto-screwshields
+356,real-time clock projects
+357,liquidcrystal library sketches
+357,proto-screwshields
+359,creating a simple digital clock (project)
+359,liquidcrystal library sketches
+359,real-time clock projects
+360,creating an rfid time-clock system (project)
+360,in projects
+360,proto-screwshields
+360,real-time clock projects
+360,writing data to (projects)
+361,liquidcrystal library sketches
+361,sd card library sketches
+364,liquidcrystal library sketches
+364,sd card library sketches
+365,creating an rfid time-clock system (project)
+365,in projects
+365,logging and log files
+365,real-time clock projects
+365,writing data to (projects)
+367,ethernet shields
+367,in projects
+367,w5100 controller chip
+368,in projects
+369,building a remote monitoring station (project)
+369,creating
+369,dyn (redirection service)
+369,ip addresses
+369,isps (internet service providers) and ip addressing
+369,network cables
+369,no-ip (redirection service)
+369,remote monitoring projects
+369,web pages
+370,ethernet library sketches
+371,in projects
+371,ip addresses
+372,ip addresses
+372,mac addresses
+373,building a remote monitoring station (project)
+373,creating
+373,creating an arduino tweeter (project)
+373,download
+373,dyn (redirection service)
+373,ethernet library sketches
+373,in sketches
+373,no-ip (redirection service)
+373,port forwarding
+373,remote monitoring projects
+373,tokens (twitter)
+373,twitter and tweets
+373,viewing
+373,web pages
+374,ethernet library sketches
+374,in sketches
+375,creating an arduino tweeter (project)
+375,in projects
+375,kennedy
+375,keys
+375,over internet
+375,remote control of
+375,setting up a remote control for your arduino (project)
+375,twitter and tweets
+375,using
+375,web browsers
+377,teleduino library download
+377,teleduino status
+378,teleduino digital
+379,in projects
+379,over internet
+379,remote control of
+379,setting up a remote control for your arduino (project)
+379,teleduino digital
+379,web browsers
+381,using
+382,project hardware
+382,sim cards
+382,sim5320 shield
+382,sms (short message service) text messaging
+382,tinysine 3g gsm shields
+382,using
+382,using sms
+383,connecting
+383,sim cards
+384,connecting
+384,in sketches
+384,testing
+385,building an arduino dialer (project)
+385,dialer-building project
+385,project hardware
+385,projects
+385,testing
+388,building a texter
+388,building an arduino dialer (project)
+388,building an arduino texter (project)
+388,dialer-building project
+388,download
+388,in sketches
+388,projects
+389,building a texter
+389,building an arduino texter (project)
+389,in sketches
+389,projects
+390,projects
+390,remote control with
+390,setting up an sms remote control (project)
+390,with text messaging
+393,community
+393,projects
+393,remote control with
+393,setting up an sms remote control (project)
+393,with text messaging

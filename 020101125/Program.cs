@@ -7,7 +7,7 @@ namespace _020101125
     {
         static void Main(string[] args)
         {
-            test3();
+            test4();
            
         }
         void test1()
@@ -54,7 +54,12 @@ namespace _020101125
         static void test4()
         {
             tree<THISINH> tree = new tree<THISINH>();
-
+            tree.ReadTreeFromFile("diemtest.txt",THISINH.sosanhtheoSBD,THISINH.ScanfromString);
+            var dsthisinhLNR = tree.LNR();
+            for (int i = 0,length=dsthisinhLNR.Count; i < length; i++)
+            {
+                Console.WriteLine(dsthisinhLNR[i].SBD);
+            }
         }
     }
 }

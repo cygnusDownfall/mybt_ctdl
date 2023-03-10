@@ -71,14 +71,14 @@ namespace BinarySearchTree
             queue.Enqueue(new QueueElement(ref root, level));
             while (queue.Count > 0)
             {
-                QueueElement queueElement = queue.Dequeue(); 
+                QueueElement queueElement = queue.Dequeue();
                 if (queueElement.level > oldlevel)
                 {
                     Console.WriteLine();
                     oldlevel = queueElement.level;
                 }
                 Console.Write(queueElement.node.value + " ");
-                
+
                 if (queueElement.node.left != null)
                 {
                     queue.Enqueue(new QueueElement(ref queueElement.node.left, queueElement.level + 1));
@@ -91,6 +91,7 @@ namespace BinarySearchTree
         }
         public void NLR(Node node)
         {
+            
             if (node == null)
             {
                 return;
@@ -98,6 +99,27 @@ namespace BinarySearchTree
             Console.Write("{0} ", node.value);
             NLR(node.left);
             NLR(node.right);
+            
+        }
+        public void NLRnoRes()
+        {
+            Stack<Node> st = new Stack<Node>();
+            Node cur = root;
+            st.Push(root);
+            while (st.Count != 0)
+            {
+                cur = st.Pop();
+                Console.Write("{0} ", cur.value);
+                
+                if (cur.right != null)
+                {
+                    st.Push(cur.right);
+                }
+                if (cur.left != null)
+                {
+                    st.Push(cur.left);
+                }
+            }
         }
         public void LNR(Node node)
         {
@@ -153,21 +175,22 @@ namespace BinarySearchTree
                 if (cur.value == X)
                 {
                     return cur;
-                }else if(cur.value < X)
+                }
+                else if (cur.value < X)
                 {
                     cur = cur.right;
 
                 }
                 else
                 {
-                    cur= cur.left;
+                    cur = cur.left;
                 }
             }
             return null;
         }
         public Node findMax()
         {
-            if(root == null) { return null; }
+            if (root == null) { return null; }
             Node cur = root;
             while (cur.right != null)
             {
@@ -179,7 +202,7 @@ namespace BinarySearchTree
         {
             if (root == null) { return null; }
             Node cur = root;
-            while (cur.left!= null)
+            while (cur.left != null)
             {
                 cur = cur.left;
             }
@@ -208,8 +231,8 @@ namespace BinarySearchTree
         }
         public int demNode(Node node)
         {
-            if(node == null) { return 0; }
-            return 1+demNode(node.left)+demNode(node.right);
+            if (node == null) { return 0; }
+            return 1 + demNode(node.left) + demNode(node.right);
         }
         public int demNode()
         {
@@ -219,7 +242,7 @@ namespace BinarySearchTree
         {
             if (node == null) { return 0; }
             if ((node.left == null) && (node.right == null)) return 1;
-            return demNutLa(node.left)+demNutLa(node.right);
+            return demNutLa(node.left) + demNutLa(node.right);
 
         }
         public int demNutLa()
@@ -229,11 +252,11 @@ namespace BinarySearchTree
         public int demNutLe(Node node)
         {
             if (node == null) { return 0; }
-            return ((node.value%2!=0)?1:0 )+ demNutLe(node.left) + demNutLe(node.right);
+            return ((node.value % 2 != 0) ? 1 : 0) + demNutLe(node.left) + demNutLe(node.right);
         }
         public int demNutLe()
         {
-            return demNutLe(root);    
+            return demNutLe(root);
         }
         public int demNutChan(Node node)
         {
@@ -247,7 +270,7 @@ namespace BinarySearchTree
         public int demNutDuong(Node node)
         {
             if (node == null) { return 0; }
-            return ((node.value>= 0) ? 1 : 0 )+ demNutDuong(node.left) + demNutDuong(node.right);
+            return ((node.value >= 0) ? 1 : 0) + demNutDuong(node.left) + demNutDuong(node.right);
         }
         public int demNutDuong()
         {
@@ -256,7 +279,7 @@ namespace BinarySearchTree
         public int demNutAm(Node node)
         {
             if (node == null) { return 0; }
-            return ((node.value < 0) ? 1 : 0 )+ demNutAm(node.left) + demNutAm(node.right);
+            return ((node.value < 0) ? 1 : 0) + demNutAm(node.left) + demNutAm(node.right);
         }
         public int demNutAm()
         {
@@ -268,7 +291,7 @@ namespace BinarySearchTree
             bool x = (node.left == null) ^ (node.right == null);
 
 
-            return ((x) ? 1 : 0 )+ demNutCoMotCon(node.left) + demNutCoMotCon(node.right);
+            return ((x) ? 1 : 0) + demNutCoMotCon(node.left) + demNutCoMotCon(node.right);
         }
         public int demNutCoMotCon()
         {
@@ -277,7 +300,7 @@ namespace BinarySearchTree
         public int demNutCoHaiCon(Node node)
         {
             if (node == null) { return 0; }
-            bool x = (node.left != null) &&(node.right != null);
+            bool x = (node.left != null) && (node.right != null);
 
 
             return ((x) ? 1 : 0) + demNutCoHaiCon(node.left) + demNutCoHaiCon(node.right);
@@ -288,8 +311,8 @@ namespace BinarySearchTree
         }
         public int Tong(Node x)
         {
-            if(x==null) { return 0; }
-            return x.value+Tong(x.left)+Tong(x.right);
+            if (x == null) { return 0; }
+            return x.value + Tong(x.left) + Tong(x.right);
         }
         public int Tong()
         {
@@ -298,36 +321,36 @@ namespace BinarySearchTree
         public int TongLa(Node node)
         {
             if (node == null) { return 0; }
-            bool condition= !((node.left == null) ^ (node.right == null));
-            return ((condition)? node.value:0) + TongLa(node.left) + TongLa(node.right);
+            bool condition = !((node.left == null) ^ (node.right == null));
+            return ((condition) ? node.value : 0) + TongLa(node.left) + TongLa(node.right);
         }
         public int TongLa()
         {
             return TongLa(root);
         }
-        public void DemTong(Node node,ref int count,ref int sum)
+        public void DemTong(Node node, ref int count, ref int sum)
         {
-            if (node == null) { return ; }
+            if (node == null) { return; }
             count++;
             sum += node.value;
-            DemTong(node.left,ref count,ref sum);
-            DemTong(node.right,ref count,ref sum);
+            DemTong(node.left, ref count, ref sum);
+            DemTong(node.right, ref count, ref sum);
         }
         public void DemTong()
         {
             int count = 0, sum = 0;
-            DemTong(root,ref count,ref sum);
-            Console.WriteLine("So nut:{0}  Tong nut:{1}",count,sum);
+            DemTong(root, ref count, ref sum);
+            Console.WriteLine("So nut:{0}  Tong nut:{1}", count, sum);
         }
         public int ChieuCao(Node node)
         {
             if (node == null) return 0;
-            return 1+Math.Max(ChieuCao(node.left),ChieuCao(node.right));
-            
+            return 1 + Math.Max(ChieuCao(node.left), ChieuCao(node.right));
+
         }
         public int ChieuCao()
         {
-           if(root== null) return 0;
+            if (root == null) return 0;
             return ChieuCao(root);
         }
     }

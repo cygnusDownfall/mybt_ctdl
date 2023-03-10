@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.ConstrainedExecution;
 
 namespace _020101125
 {
     public class TreeNode<T> where T : new()
     {
         T values;
-        public TreeNode<T> Left;
-        public TreeNode<T> Right;
+        public TreeNode<T> Left=null;
+        public TreeNode<T> Right=null;
         public T Value { get => values; }
 
         public TreeNode()
@@ -71,23 +72,46 @@ namespace _020101125
             }
             return true;
         }
-        public virtual void ReadTreeFromFile(string path)
+        public delegate T Scan(string s);
+        public virtual void ReadTreeFromFile(string path,Comparison<T> comparison,Scan scan)
         {
             using (StreamReader rd = new StreamReader(path))
             {
-               
+                string s;
+                for (int i = 0; (s = rd.ReadLine()) != null; i++)
+                {
+                        T value = scan(s);
+                        addNode(root, value, comparison);
+                }
             }
         }
 
         public List<T> LNR()
         {
-            Stack<TreeNode<T>> stack = new Stack<TreeNode<T>>();
-            stack.Push(root);
-            TreeNode<T> val = root;
+            Stack<TreeNode<T>> st = new Stack<TreeNode<T>>();
+            st.Push(root);
+            TreeNode<T> cur = root;
             List<T> list = new List<T>();
-            while(stack.Count > 0)
+            while(st.Count > 0)
             {
-               
+                cur= st.Pop();
+                //list.Add(cur.Value);
+                if (cur.Left != null)
+                {
+                    st.Push(cur);
+                    st.Push(cur.Left);
+                   // continue;
+                }
+                st.Pop();
+                list.Add(cur.Value);
+                if (cur.Right != null)
+                {
+                    st.Push(cur);
+                    st.Push(cur.Right);
+                    //continue;
+                }
+
+                
             }
             
             return list;
@@ -96,29 +120,11 @@ namespace _020101125
     public class treeTHISINH : tree<THISINH>
     {
         public treeTHISINH() { }
-        public override void ReadTreeFromFile(string path) //ch xong
+        public  void ReadTreeFromFile(string path) //ch xong
         {
             using (StreamReader rd = new StreamReader(path))
             {
-                string[] infos = new string[4];
-                int sbd;
-                float toan, van, anh;
-                string s;
-                for (int i = 0; (s = rd.ReadLine()) != null; i++)
-                {
-                    infos = s.Split(',', StringSplitOptions.RemoveEmptyEntries);
-                    if (infos.Length > 0)
-                    {
-                        sbd = Convert.ToInt32(infos[0]);
-                        toan = float.Parse(infos[1]);
-                        van = float.Parse(infos[2]);
-                        anh = float.Parse(infos[3]);
-
-                        THISINH sv = new THISINH(sbd, toan, van, anh);
-                        addNode(root,sv,THISINH.sosanhtheoSBD);
-                    }
-
-                }
+                
             }
         }
     }
